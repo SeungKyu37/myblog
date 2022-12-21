@@ -14,14 +14,14 @@ tags:
 
 # Git hub blog - hexo
 
-1****. 필수 파일 설치****
+**1. 필수 파일 설치**
 
-- [nodejs.org](https://nodejs.org/en/download/) ****다운로드
+- [nodejs.org](https://nodejs.org/en/download/) 다운로드
     - 설치 시 주의 사항
     
-    ![Untitled](/images/2022/12/Git hub blog/Untitled.png)
+    ![Untitled](/images/2022/12/Git_hub_blog/Untitled.png)
     
-    ![Untitled](/images/2022/12/Git hub blog/Untitled%201.png)
+    ![Untitled](/images/2022/12/Git_hub_blog/Untitled%201.png)
     
 - git bash에서 확인
 
@@ -35,7 +35,7 @@ node -v
 npm install -g hexo-cli
 ```
 
-2****.  블로그 생성****
+**2.  블로그 생성**
 
 - 적당한 폴더 생성(차례대로 실행)
 
@@ -53,7 +53,7 @@ $ cd myblog
 
 - <자신의 닉네임>.github.io 생성
     
-    ![Untitled](/images/2022/12/Git hub blog/Untitled%202.png)
+    ![Untitled](/images/2022/12/Git_hub_blog/Untitled%202.png)
     
 - npm 설치
 
@@ -67,14 +67,14 @@ $ npm install hexo-deployer-git --save
     - 사이트 정보 수정
     - 블로그 URL 정보 설정
         
-        ![Untitled](/images/2022/12/Git hub blog/Untitled%203.png)
+        ![Untitled](/images/2022/12/Git_hub_blog/Untitled%203.png)
         
     - 깃허브 연동
     
-    ![Untitled](/images/2022/12/Git hub blog/Untitled%204.png)
+    ![Untitled](/images/2022/12/Git_hub_blog/Untitled%204.png)
     
 
-2****.  깃허브에 배포****
+**3.  깃허브에 배포**
 
 - 차례대로 실행 후 [http://localhost:4000/](http://localhost:4000/) 에서 접속 확인
 
